@@ -9,13 +9,29 @@ app.use(bodyParser.urlencoded({extended: true}));
 // static campground data
 var campsData = [
 	{
-		name: 'aungnan',
+		name: 'ranbu',
 		img: 'https://www.mindmeister.com/images/download/3047364'
 	},
 	{
+		name: 'aungnan',
+		img: 'http://www.wildnatureimages.com/images%203/060731-346..jpg'
+	}, 	
+	{
+		name: 'minyat',
+		img: 'http://www.wildnatureimages.com/images%203/060731-346..jpg'
+	},
+	{
+		name: 'putao',
+		img: 'http://www.wildnatureimages.com/images%203/060731-346..jpg'
+	},
+	{
+		name: 'ayesaydi',
+		img: 'http://www.wildnatureimages.com/images%203/060731-346..jpg'
+	},
+		{
 		name: 'yangon',
 		img: 'http://www.wildnatureimages.com/images%203/060731-346..jpg'
-	}
+	},
 ];
 
 // root route
